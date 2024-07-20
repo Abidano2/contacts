@@ -1,0 +1,73 @@
+body {
+    background-image: url("login.webp");
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    vertical-align: central;
+}
+
+.container-fluid {
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+#fade {
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+}
+
+.btn {
+    width: 100%;
+}
+
+/*@media (max-width: 1200px) {
+    .container-fluid {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .containe-fluid {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .containe-fluid {
+        padding-top: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        padding-top: 50%;
+    }
+}
+*/
+
+.pfp {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
